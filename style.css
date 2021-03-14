@@ -1,6 +1,7 @@
 html, body{
     height: 100%;
     margin: 0;
+    background-color: #7C7C7C;
 }
 
 .contener{
@@ -9,9 +10,57 @@ html, body{
     align-items: center;
     height: 100%;
     width: 100%;
+    flex-direction: column;
 }
 
 .splide{
     height: auto;
     width: 1024px;
+}
+
+
+.glide__slide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.glide__slide img
+{
+    width: 300px;
+    height: 400px;
+}
+
+
+.content
+{
+    font-size: 24px;
+    color: white;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    bottom: 200px;
+}
+
+a.button
+{
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    padding: 10px;
+
+    text-decoration: none;
+    color: #000000;
+    background-color: #92DCE5;
+    transition: color 1s, background-color 1s;
+
+}
+
+a.button:hover
+{
+    color: #92DCE5;
+    background-color: #000000;
 }

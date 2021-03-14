@@ -8,3 +8,10 @@ document.addEventListener( 'DOMContentLoaded', function () {
 		'heightRatio': 0.8,
 	} ).mount();
 } );
+
+
+new Glide('.glide', {
+	type: 'carousel',
+	startAt: 0,
+	perView: 4
+  }).mount()
